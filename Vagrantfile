@@ -26,6 +26,7 @@ Vagrant.configure(2) do |config|
           sudo usermod -aG docker vagrant
           sudo systemctl enable docker
           sudo systemctl start docker
+          sudo apt install -y docker-compose
        SHELL
       end
   

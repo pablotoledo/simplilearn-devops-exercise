@@ -1,1 +1,18 @@
+1 - Create a local Ubuntu environment as per requirement (using Vagrant to avoid cloud platform) and login in DockerHub Account jtoledog
+
+2 - Using an external HelloWorld project imported in this repostiry, in folder angular-app
+
+3 - Defining Dockerfile
+
+4 - Creating local imagen call nodeapp
+
+5 - Tagged local image nodeapp as jtoledog/nodeapp
+
+6 - pushed to jtoledog/nodeapp https://hub.docker.com/repository/docker/jtoledog/nodeapp
+
+7 - added to docker-compose.yml
+
+8 - Accessing to local IP defined in vagrant and checking the published port by dockercompose http://192.168.50.10:4200/
+
+
 pwd: /vagrant/Formación/Simplilearn/DevOps\ Certification/Devops_EBook/practica

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+    node:
+        image: jtoledog/nodeapp
+        restart: always
+        container_name: nodeapp
+        ports:
+            - 4200:4200
+
+      
