@@ -15,4 +15,3 @@
 8 - Accessing to local IP defined in vagrant and checking the published port by dockercompose http://192.168.50.10:4200/
 
 
-pwd: /vagrant/Formación/Simplilearn/DevOps\ Certification/Devops_EBook/practica
